@@ -1,0 +1,34 @@
+header nav {
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.flex-items {
+  flex-direction: column;
+}
+
+.flex-cols .row,
+.flex-cols .row.row-reverse {
+  flex-direction: column;
+}
+
+.flex-cols .row img,
+.flex-cols .row.row-reverse img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flex-grid .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.flex-icons .flex-items .flex-item {
+  border-bottom: 40px;
+}
+
+.flex-icons .flex-items .flex-item img {
+  border-radius: 50%;
+  width: 70%;
+}

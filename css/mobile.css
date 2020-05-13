@@ -1,0 +1,16 @@
+.hero nav .nav-right ul li::before {
+  content: "> ";
+}
+
+.hero .showcase {
+  padding: 40px;
+}
+
+.hero .showcase h2 {
+  font-size: 35px;
+}
+
+.flex-grid .col {
+  max-width: 100%;
+  flex-basis: 100%;
+}
